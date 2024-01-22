@@ -49,6 +49,8 @@
 
       .poppins {
         font-family: "Poppins", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
       }
     </style>
   </head>
@@ -106,7 +108,7 @@
               </ul>
             </div>
             <!-- logo -->
-            <a class="btn btn-ghost text-xl">
+            <a class="btn btn-ghost text-xl w-3/4">
               <img src="images/logo2.png" alt="" />
             </a>
           </div>
@@ -138,7 +140,7 @@
             </ul>
           </div>
           <div class="navbar-end">
-            <a class="btn bg-btnBg text-white font-semibold text-lg"
+            <a class="btn bg-btnBg text-white font-semibold text-xs lg:text-lg"
               >Free Consultation</a
             >
           </div>
@@ -148,22 +150,35 @@
       <!-- Banner-section -->
       <div
         class="hero min-h-screen"
-        style="
-          background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);
-        "
+        style="background-image: url(images/banner.png)"
       >
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content">
-          <div class="max-w-md">
-            <h1 class="mb-5 text-5xl font-bold">
+          <div class="max-w-3xl">
+            <h1
+              class="mb-5 text-3xl md:text-5xl lg:text-7xl font-extrabold font-font_eb text-white"
+            >
               We Provide Effective Legal Solutions
             </h1>
-            <p class="mb-5">
+            <p class="mb-5 text-[#E7E7E7]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour.
             </p>
-            <button class="btn btn-primary">Search</button>
+            <div class="flex gap-7 justify-center">
+              <label class="form-control w-full max-w-xs">
+                <input
+                  type="text"
+                  placeholder="Search your services"
+                  class="input input-bordered w-full max-w-xs"
+                />
+              </label>
+              <button
+                class="btn bg-btnBg border-none text-white font-semibold text-lg"
+              >
+                Search
+              </button>
+            </div>
           </div>
         </div>
       </div>
