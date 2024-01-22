@@ -43,22 +43,20 @@
     </script>
     <!-- Custom-CSS -->
     <style>
-      h2 {
+      .font_eb {
         font-family: "EB Garamond", serif;
-        font-weight: 800;
       }
 
-      p {
+      .poppins {
         font-family: "Poppins", sans-serif;
-        font-weight: 600;
       }
     </style>
   </head>
-  <body>
+  <body class="poppins">
     <!-- Header-Section -->
     <header class="header">
       <!-- navbar-section -->
-      <nav>
+      <nav class="mb-8">
         <div class="navbar bg-base-200">
           <div class="navbar-start">
             <div class="dropdown">
@@ -82,18 +80,28 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <li><a>Home</a></li>
                 <li>
-                  <a>Services <i class="fa-solid fa-chevron-right"></i></a>
+                  <a class="font-semibold text-base text-[#707070]">Home</a>
                 </li>
                 <li>
-                  <a>Cases <i class="fa-solid fa-chevron-right"></i></a>
+                  <a class="font-semibold text-base text-[#707070]"
+                    >Services <i class="fa-solid fa-chevron-right"></i
+                  ></a>
                 </li>
                 <li>
-                  <a>Blog <i class="fa-solid fa-chevron-right"></i></a>
+                  <a class="font-semibold text-base text-[#707070]">
+                    Cases <i class="fa-solid fa-chevron-right"></i
+                  ></a>
                 </li>
                 <li>
-                  <a>Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+                  <a class="font-semibold text-base text-[#707070]"
+                    >Blog <i class="fa-solid fa-chevron-right"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="font-semibold text-base text-[#707070]"
+                    >Contact Us <i class="fa-solid fa-chevron-right"></i
+                  ></a>
                 </li>
               </ul>
             </div>
@@ -104,31 +112,66 @@
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
-              <li><a>Home</a></li>
               <li>
-                <a>Services <i class="fa-solid fa-chevron-right"></i></a>
+                <a class="font-semibold text-base text-[#707070]">Home</a>
               </li>
               <li>
-                <a>Cases <i class="fa-solid fa-chevron-right"></i></a>
+                <a class="font-semibold text-base text-[#707070]"
+                  >Services <i class="fa-solid fa-chevron-right"></i
+                ></a>
               </li>
               <li>
-                <a>Blog <i class="fa-solid fa-chevron-right"></i></a>
+                <a class="font-semibold text-base text-[#707070]">
+                  Cases <i class="fa-solid fa-chevron-right"></i
+                ></a>
               </li>
               <li>
-                <a>Contact Us <i class="fa-solid fa-chevron-right"></i></a>
+                <a class="font-semibold text-base text-[#707070]"
+                  >Blog <i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </li>
+              <li>
+                <a class="font-semibold text-base text-[#707070]"
+                  >Contact Us <i class="fa-solid fa-chevron-right"></i
+                ></a>
               </li>
             </ul>
           </div>
           <div class="navbar-end">
-            <a class="btn bg-btnBg text-white">Free Consultation</a>
+            <a class="btn bg-btnBg text-white font-semibold text-lg"
+              >Free Consultation</a
+            >
           </div>
         </div>
       </nav>
 
       <!-- Banner-section -->
+      <div
+        class="hero min-h-screen"
+        style="
+          background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);
+        "
+      >
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">
+              We Provide Effective Legal Solutions
+            </h1>
+            <p class="mb-5">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
+            </p>
+            <button class="btn btn-primary">Search</button>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- Main-Section -->
-    <main class="main"><i class="fa-solid fa-chevron-right"></i></main>
+    <main class="main">
+      <h1 class="text-5xl">Hello</h1>
+    </main>
     <!-- Footer-Section -->
     <footer class="footer">Footer</footer>
   </body>
